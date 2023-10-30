@@ -1,0 +1,6 @@
+{
+  "short_name": "AWS WAF React Captcha Demo",
+  "name": "AWS WAF React Captcha Demo",
+  "start_url": ".",
+  "display": "standalone"
+}

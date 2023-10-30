@@ -1,0 +1,54 @@
+{
+  "name": "todos-express-password",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Todo app using Express and Passport for sign in with username and password.",
+  "keywords": [
+    "example",
+    "express",
+    "passport",
+    "sqlite"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "https://www.jaredhanson.me/"
+  },
+  "homepage": "https://github.com/passport/todos-express-password",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/passport/todos-express-password.git"
+  },
+  "bugs": {
+    "url": "https://github.com/passport/todos-express-password/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/jaredhanson"
+  },
+  "license": "Unlicense",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "connect-sqlite3": "^0.9.13",
+    "cookie-parser": "~1.4.4",
+    "csurf": "^1.11.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "mkdirp": "^1.0.4",
+    "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pluralize": "^8.0.0",
+    "sqlite3": "^5.0.2"
+  },
+  "overrides": {
+    "qs": "6.5.3",
+    "postcss": "8.4.31",
+    "nth-check": "2.0.1"
+  }
+}
