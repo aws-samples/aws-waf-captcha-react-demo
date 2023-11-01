@@ -25,7 +25,7 @@ We now walk through the steps to set up this demonstration in your account.
 This application is deployed to us-east-1 by using the following commands:
 ```
 git clone https://github.com/aws-samples/aws-waf-captcha-react-demo
-cd aws-waf-captcha-react/infra
+cd aws-waf-captcha-react-demo/infra
 npm install
 cdk deploy
 ```
